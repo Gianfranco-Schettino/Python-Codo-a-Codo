@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../recursos/isologo.png" />
+    <link rel="stylesheet" href="../css/nosotros.css" />
+    <title>Centro Médico - Nosotros</title>
+</head>
+
+<body onscroll="stickyNav()">
+    <header> <img src="../recursos/logo-version-1.png" alt="logo" class="logo"></header>
+
+    <nav>
+        <li id="menu" onclick="desplegarMenu()"><u> Abrir Menu ↓</u></li>
+        <li class="nav_item"><a href="../index.html">Inicio</a></li>
+
+        <li class="nav_item">
+            <a href="nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav_item">
+            <a href="especialidades.html">Especialidades</a>
+        </li>
+        <li class="nav_item">
+            <a href="contacto.html">Contacto</a>
+        </li>
+
+    </nav>
+
+    <section>
+        <div class="info">
+            <div id="introduccion">
+                <h2>Centro Médico Argentino</h2>
+                <p> Somos una empresa en constante crecimiento reconocida a nivel internacional que desde hace 30 años
+                    apuesta al futuro con inversión, esfuerzo, equipamiento de última generación y la más cordial
+                    atención.<br>
+                    Día a día aspiramos a alcanzar y superar los valores de seriedad, transparencia, prestigio
+                    profesional,
+                    técnico y administrativo en cada servicio que ofrecemos, cuidando la salud de nuestros pacientes a
+                    través de una moderna y confortable estructura.</p>
+                </p>
+
+                <p><strong>HORARIOS DE ATENCIÓN:</strong><br>
+                    Lunes a viernes de 8.00 a 20.00 hs.</p>
+                <p>Av. Córdoba 2351<br>
+                    Ciudad Autónoma de Buenos Aires (C1028).</p>
+                <p>Whatsapp: <a
+                        href="https://api.whatsapp.com/send/?phone=%2B5491111111111&text=Hola%2C+quiero+un+turno.&type=phone_number&app_absent=0"
+                        target="_blank" rel="noopener">11 1111 1111</a><br>
+                    Tel: <a href="tel:11 1111 1111">11 1111 1111</a><br>
+                    <a href="mailto:info@centromedicoargentino.com.ar">info@centromedicoargentino.com.ar</a>
+                </p>
+
+
+            </div>
+        </div>
+        <div class="mapa">
+            <h2>Nuestra ubicación</h2>
+            <div id="map"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="logo">
+            <img src="../recursos/logo-blanco.png" alt="logo-pagina">
+        </div>
+        <div class="redes">
+            <a href="https://api.whatsapp.com/send/?phone=%2B5491111111111&text=Hola%2C+quiero+un+turno.&type=phone_number&app_absent=0"
+                target="_blank"><img src="../recursos/ico/whatsapp.png" alt="logo" /></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="../recursos/ico/logo-face.png"
+                    alt="logo" /></a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="../recursos/ico/logo-insta.png" alt="logo" /></a>
+            <p id="descripcion_footer">Av. Córdoba 2351, C1028 CABA <br> Centro Médico Argentino
+            </p>
+        </div>
+    </footer>
+
+    <script src="../js/nav.js"></script>
+    <script src="../js/script.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+</body>
+
+</html>
